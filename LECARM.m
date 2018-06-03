@@ -9,6 +9,6 @@ estimater = @(t)limeEstimate(t, 0.15, 2);
 %%
 T = max(in, [], 3);
 T = imresize( estimater( imresize( T, 0.5 ) ), size(T) );
-K = min(1./T,ratioMax);
+K = repmat(min(1./T,ratioMax),[1,1,size(in,3)]);
 out = cameraModel.btf(in, K);
 end

@@ -4,9 +4,11 @@
 
 ![](https://img.shields.io/badge/OS-Win10-green.svg) 
 
-Code for our paper "LECARM: Low-Light Image Enhancement using Camera Response Model"
+Code for our paper "[LECARM: Low-Light Image Enhancement using Camera Response Model](https://ieeexplore.ieee.org/document/8340778/)"
 
-* run `run.m` of a demo
+* Our paper provides a low-light image enhancment algorithm obtaining the enhanced images by locally adjusting the exposure of input images using camera response model.
+
+* run `run.m` for a demo
 
 * Original code is tested on *Matlab 2016b* 64bit, Windows 10.
 
@@ -22,8 +24,14 @@ Code for our paper "LECARM: Low-Light Image Enhancement using Camera Response Mo
   * [MEF](https://ece.uwaterloo.ca/~k29ma/)  [dataset](http://ivc.uwaterloo.ca/database/MEF/MEF-Database.php)
   * [IUS](http://projects.ius.edu.ba/ComputerGraphics/HDR/Eurographics/eurographics.html)
 
+* The **quality metrics** used in our papers:
+
+  * LOE: Naturalness Preserved Enhancement Algorithm for Non-Uniform Illumination Images
+  * RCDM: A Reduced-Reference Color Distortion Metric for Enhanced Low-light Images (Matlab code coming soon)
+  * PCQI: A Patch-Structure Representation Method for Quality Assessment of Contrast Changed Images [ (Download the code)](https://ece.uwaterloo.ca/~k29ma/)
+
 * Comparison with several state-of-the-art methods
 
   ![subjective](subjective.png)
 
-From left to right: input images, results of MSRCR, Dong, NPE, LIME, MF, and LECARM(ours).
+
