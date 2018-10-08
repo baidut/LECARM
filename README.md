@@ -32,6 +32,6 @@ Code for our paper "[LECARM: Low-Light Image Enhancement using Camera Response M
 
 * Comparison with several state-of-the-art methods
 
-  ![subjective](subjective.png)
+  ![subjective](subjective.jpg)
 
 
